@@ -1,5 +1,5 @@
 # Maven / Java
- target/
+target/
 *.class
 *.jar
 
@@ -14,7 +14,7 @@
 !.env.example
 application-local.properties
 
-# Runtime evidence and local data
+# Runtime evidence
 storage/evidence/*
 !storage/evidence/.gitkeep
 *.sql.gz
